@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e7ff026adcea4cf3862b80737f4afd48" Name="Diagram1">
+        <EntityTypeShape EntityType="masterModel.ActionType" Width="1.5" PointX="10.5" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Admin" Width="1.5" PointX="14" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Conference" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Country" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Division" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Matchup" Width="1.5" PointX="7.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.MatchupDetail" Width="1.5" PointX="9.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.MatchupLog" Width="1.5" PointX="12.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.MatchupType" Width="1.5" PointX="5.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Pictures" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Player" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.PlayerInTeam" Width="1.5" PointX="10.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.PlayerStatistics" Width="1.5" PointX="9.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Position" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.PostSeason" Width="1.5" PointX="7.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Role" Width="1.5" PointX="11.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Season" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Team" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.MSreplication_options" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_db" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_dev" Width="1.5" PointX="11.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_usg" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_monitor" Width="1.5" PointX="13.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="masterModel.FK_MatchupLog_ActionType" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_Admin_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_Division_Conference" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_Player_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_Team_Division" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_Matchup_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_MatchupLog_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_MatchupResult_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_MatchupStatistics_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_Schedule_SeasonType" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_Schedule_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_Schedule_Team1" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_MatchupLog_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_MatchupLog_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_MatchupStatistics_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_Player_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_PlayerInTeam_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_PlayerInTeam_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_PlayerInTeam_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_MatchupStatistics_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_TeamInPostseason_Season" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK_TeamInPostseason_Team" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
